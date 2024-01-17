@@ -12,6 +12,7 @@ public class Stroopwafel implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 		ModItems.registerModItems();
 	}
 }
