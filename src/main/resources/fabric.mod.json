@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Adindacoding/MinecraftStroopwafelMod"
 	},
 	"license": "MIT",
 	"icon": "assets/stroopwafel/icon.png",
@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"adinda.stroopwafel.Stroopwafel"
+		],
+		"client": [
+			"adinda.stroopwafel.StroopwafelClient"
 		],
 		"fabric-datagen": [
 			"adinda.stroopwafel.StroopwafelDataGenerator"
