@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "stroopwafel",
+	"version": "${version}",
+	"name": "Stroopwafel",
+	"description": "This mod adds stroopwafels to the game",
+	"authors": [
+		"AdindaCoding"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/stroopwafel/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"adinda.stroopwafel.Stroopwafel"
+		],
+		"fabric-datagen": [
+			"adinda.stroopwafel.StroopwafelDataGenerator"
+		]
+	},
+	"mixins": [
+		"stroopwafel.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
